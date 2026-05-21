@@ -96,7 +96,7 @@ Through this project, the following DV concepts are practiced:
 - Scalable SystemVerilog testbench design
 
 # Author
-Vijay Bandi
-ECE Graduate 2025
-VLSI Design Verification Trainee
-SystemVerilog | Verilog | Assertions | Functional Coverage
+- Vijay Bandi
+- ECE Graduate 2025
+- VLSI Design Verification Trainee
+- SystemVerilog | Verilog | Assertions | Functional Coverage
