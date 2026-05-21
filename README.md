@@ -17,22 +17,22 @@ The objective is to verify correct memory read/write functionality using constra
 # Folder Structure
 
 Memory_Verification_Project/
-│
-├── - 'mem.sv/'              → Memory DUT
-├── - 'mem_agent.sv/'        → Agent containing BFM, Monitor, Generator
-├── - 'mem_assert.sv/'       → SystemVerilog Assertions
-├── - 'mem_BFM.sv/'          → Bus Functional Model / Driver
-├── - 'mem_common.sv/'       → Common parameters & definitions
-├── - 'mem_cov.sv/'          → Functional coverage collection
-├── - 'mem_env.sv/'          → Verification environment
-├── - 'mem_gen.sv/'          → Stimulus generator
-├── - 'mem_intrf.sv/'        → Interface definition
-├── - 'mem_list.svh/'        → Include file list
-├── - 'mem_mon.sv/'          → Monitor
-├── - 'mem_run.do/'          → ModelSim run script
-├── - 'mem_sbd.sv/'          → Scoreboard
-├── - 'mem_TB.sv/'           → Top-level testbench
-└── - 'README.md/'           → Documentation
+
+- 'mem.sv/'              → Memory DUT
+- 'mem_agent.sv/'        → Agent containing BFM, Monitor, Generator
+- 'mem_assert.sv/'       → SystemVerilog Assertions
+- 'mem_BFM.sv/'          → Bus Functional Model / Driver
+- 'mem_common.sv/'       → Common parameters & definitions
+- 'mem_cov.sv/'          → Functional coverage collection
+- 'mem_env.sv/'          → Verification environment
+- 'mem_gen.sv/'          → Stimulus generator
+- 'mem_intrf.sv/'        → Interface definition
+- 'mem_list.svh/'        → Include file list
+- 'mem_mon.sv/'          → Monitor
+- 'mem_run.do/'          → ModelSim run script
+- 'mem_sbd.sv/'          → Scoreboard
+- 'mem_TB.sv/'           → Top-level testbench
+- 'README.md/'           → Documentation
 
 # Verification Components
 ## DUT (mem.sv)
