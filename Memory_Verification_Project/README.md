@@ -28,7 +28,7 @@ The objective is to verify correct memory read/write functionality using constra
 - `13_mem_TB.sv/`           → Top-level testbench
 - `14_mem_list.svh/`        → Include file list
 - `15_mem_run.do/`          → ModelSim run script
-- `16_README.md/`           → Documentation
+- `README.md/`           → Documentation
 
 # ⚙️ Verification Components
 **DUT (mem.sv)**
@@ -76,7 +76,7 @@ SystemVerilog Assertions used for:
 - Illegal condition detection
 
 **Environment (mem_env.sv)**
-Connects all verification components together.
+- Connects all verification components together.
 
 **Agent (mem_agent.sv)**
 Encapsulates:
