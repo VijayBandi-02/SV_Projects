@@ -13,22 +13,22 @@ The objective is to verify correct memory read/write functionality using constra
 
 # 📂 Folder Structure
 `Memory_Verification_Project/`
-- `mem_common.sv/`       → Common parameters & definitions
-- `mem_intrf.sv/`        → Interface definition
-- `mem.sv/`              → Memory DUT
-- `mem_tx.sv/`           → Memory Transactions
-- `mem_gen.sv/`          → Stimulus generator
-- `mem_BFM.sv/`          → Bus Functional Model / Driver
-- `mem_mon.sv/`          → Monitor
-- `mem_cov.sv/`          → Functional coverage collection
-- `mem_agent.sv/`        → Agent containing BFM, Monitor, Generator
-- `mem_sbd.sv/`          → Scoreboard
-- `mem_env.sv/`          → Verification environment
-- `mem_assert.sv/`       → SystemVerilog Assertions
-- `mem_TB.sv/`           → Top-level testbench
-- `mem_list.svh/`        → Include file list
-- `mem_run.do/`          → ModelSim run script
-- `README.md/`           → Documentation
+- `01_mem_common.sv/`       → Common parameters & definitions
+- `02_mem_intrf.sv/`        → Interface definition
+- `03_mem.sv/`              → Memory DUT
+- `04_mem_tx.sv/`           → Memory Transactions
+- `05_mem_gen.sv/`          → Stimulus generator
+- `06_mem_BFM.sv/`          → Bus Functional Model / Driver
+- `07_mem_mon.sv/`          → Monitor
+- `08_mem_cov.sv/`          → Functional coverage collection
+- `09_mem_agent.sv/`        → Agent containing BFM, Monitor, Generator
+- `10_mem_sbd.sv/`          → Scoreboard
+- `11_mem_env.sv/`          → Verification environment
+- `12_mem_assert.sv/`       → SystemVerilog Assertions
+- `13_mem_TB.sv/`           → Top-level testbench
+- `14_mem_list.svh/`        → Include file list
+- `15_mem_run.do/`          → ModelSim run script
+- `16_README.md/`           → Documentation
 
 # ⚙️ Verification Components
 **DUT (mem.sv)**
@@ -85,7 +85,7 @@ Encapsulates:
 - Monitor
 Provides modularity and reusability.
 
-**Simulation Steps (Synapsys):**
+**Simulation Steps (Questasim):**
 - do mem_run.do
 
 # Learning Outcome
