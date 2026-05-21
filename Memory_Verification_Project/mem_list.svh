@@ -1,0 +1,15 @@
+// List.svh -> SV header file: contains list of all required mem_TB
+
+`include "mem_common.sv"
+`include "mem_intrf.sv"
+`include "mem.sv"
+`include "mem_tx.sv"
+`include "mem_gen.sv"
+`include "mem_BFM.sv"
+`include "mem_mon.sv"
+`include "mem_cov.sv"
+`include "mem_agent.sv"
+`include "mem_sbd.sv"
+`include "mem_env.sv"
+`include "mem_assert.sv"
+`include "mem_TB.sv"
